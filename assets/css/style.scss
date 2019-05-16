@@ -1,0 +1,30 @@
+@import 'normalize';
+@import 'layout';
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  color: rgb(58, 0, 100);
+}
+
+.formulario{
+  max-width: 300px;
+
+  &__campo{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+  } 
+
+  &__boton{
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+  }
+}
